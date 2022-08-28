@@ -1,0 +1,20 @@
+.proyects-list {
+	list-style-type: square;
+}
+
+.link-item {
+	list-style-type: none;
+}
+
+.link-item::before {
+	content: "#";
+	position: relative;
+	right: 10px;
+	bottom: calc(128px / 2 - 10px);
+	font-size: 40px;
+}
+
+.link-icon {
+	width: 128px;
+	height: 128px;
+}
